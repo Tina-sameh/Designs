@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:quiz/design1/design1.dart';
 import 'package:quiz/design2/design2.dart';
 
+import 'girlyCalc/splash.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -16,8 +18,9 @@ class MyApp extends StatelessWidget {
       routes: {
         Design2.routeName:(_)=>Design2(),
         Design1.routeName:(_)=>Design1(),
+        Splash.routeName:(_)=>Splash(),
       },
-      initialRoute: Design2.routeName,
+      initialRoute: Splash.routeName,
     );
   }
 }
