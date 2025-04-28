@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:quiz/design1/design1.dart';
 import 'package:quiz/design2/design2.dart';
 
+import 'design4/tiktok.dart';
 import 'girlyCalc/splash.dart';
 
 void main() {
@@ -19,8 +20,9 @@ class MyApp extends StatelessWidget {
         Design2.routeName:(_)=>Design2(),
         Design1.routeName:(_)=>Design1(),
         Splash.routeName:(_)=>Splash(),
+        TikTok.routeName:(_)=>TikTok(),
       },
-      initialRoute: Splash.routeName,
+      initialRoute: TikTok.routeName,
     );
   }
 }
