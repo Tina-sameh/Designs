@@ -40,6 +40,7 @@ dependencies:
   carousel_slider: ^4.2.1
   animated_text_kit: ^4.2.2
   math_expressions: ^2.6.0
+  cached_network_image: ^3.4.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -69,6 +70,7 @@ flutter:
   - assets/design2/
   - assets/calc/
 
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
@@ -81,14 +83,15 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-fonts:
   - family: JustAnotherHand
     fonts:
       - asset: fonts/JustAnotherHand-Regular.ttf
   - family: Pacifico
     fonts:
       - asset: fonts/Pacifico-Regular.ttf
-
+  - family: TikTokIcons
+    fonts:
+      - asset: fonts/TikTokIcons.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
